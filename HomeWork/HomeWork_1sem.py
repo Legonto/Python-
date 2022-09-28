@@ -42,7 +42,10 @@ else:
 
 # x = int(input('Введите число х:'))
 # y = int(input('Введите число y:'))
-# print(f'x = {x}, y = {y} находятся в {num_quarter_plane(x,y)} четверти')
+# if x==0 or y==0:
+#     print('Введите числа не равные 0')
+# else:
+#     print(f'x = {x}, y = {y} находятся в {num_quarter_plane(x,y)} четверти')
 
 
 # Задача 4
